@@ -56,7 +56,7 @@ lxk0301-环境变量合集（Secrets）配置[点击查看](https://gitee.com/lx
 百变大咖秀第3期  22 23,0,9 * * * node /scripts/jd_entertainment.js >> /scripts/logs/jd_entertainment   
  京东女装盲盒 9 0,12,18 * * * node /scripts/jd_nzmh.js >> /scripts/logs/jd_nzmh   
  美丽研究院 9 0,12,18 * * * node /scripts/jd_beauty.js >> /scripts/logs/jd_beauty   
-##############长期活动###############
+##############长期活动################
  签到  0 0,18 * * * cd /scripts && node jd_bean_sign.js >> /scripts/logs/jd_bean_sign   
  东东超市兑换奖品 0,16 * * * node /scripts/jd_blueCoin.js 默认换500豆，然后运行换20豆(jd_blueCoin20) 
  摇京豆0 0 * * * node /scripts/jd_club_lottery.js >> /scripts/logs/jd_club_lottery   
