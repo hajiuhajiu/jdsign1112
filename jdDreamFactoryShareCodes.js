@@ -10,6 +10,7 @@
 let shareCodes = []
 // 判断github action里面是否有京喜工厂互助码 
 if (process.env.DREAM_FACTORY_SHARE_CODES) {
+  console.log(process.env.DREAM_FACTORY_SHARE_CODES)
   if (process.env.DREAM_FACTORY_SHARE_CODES.indexOf('&') > -1) {
     console.log(`您的互助码选择的是用&隔开\n`)
     shareCodes = process.env.DREAM_FACTORY_SHARE_CODES.split('&');
