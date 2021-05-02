@@ -1338,6 +1338,7 @@ function requireConfig() {
     if ($.isNode()) {
       Object.keys(shareCodes).forEach((item) => {
         if (shareCodes[item]) {
+          console.log("单个sharecode"+shareCodes[item])
           $.shareCodesArr.push(shareCodes[item])
         }
       })
